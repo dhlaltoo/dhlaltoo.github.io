@@ -73,6 +73,14 @@ h1, h2, h3, h4, h5, h6 {
 table {
   font-family: "Istok Web", sans-serif; }
 
+#pdf-frame {
+  width: 100%;
+  height: 100vh;
+  border-bottom: none; }
+
+#body-resume {
+  background-color: #215580; }
+
 .page-footer {
   background-color: #215580; }
   .page-footer a {
