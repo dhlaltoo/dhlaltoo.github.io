@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>DL | Portfolio</title>        
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="nav-main" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="index.html" class="brand-logo">Devin Laltoo</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="#connect" class="connect-nav">Connect</a></li>   
+            </ul>
+    
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="#connect" class="connect-nav">Connect</a></li>   
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <!-- PROJECTS HEADER -->
+    <div class="section projects-header">
+        <div class="container">
+            <h3 class="header">Featured Projects</h3>
+            <h5 class="header col s12 light">A sampling of works showcasing my range of skills and growth as a programmer</h5>
+        </div>
+    </div>
+
+    <!-- PROJECTS SECTION -->
+    <div class="container">
+
+        <!-- PANEL 1 -->
+        <div class="project-card card-panel">
+            <h4 class="left-align" id="MyComicList">My Comic List</h4>
+            <div class="row">
+                <p>
+                    My Comic List allows users to manage lists of comic book series supplied by the Comic Vine API. 
+                    The front end was designed using Bootstrap and is hosted on a Node.js Express server. 
+                    Users are able to submit validated queries to the API via AJAX. All CRUD functionality, 
+                    as well as user creation and authentication, was handled by a separate Express REST server, which queried a MySQL database.
+                </p>
+                <p>
+                    This project was a huge undertaking, and served as an excellent opportunity to tie together many of the concepts 
+                    and technologies I learned while in school. Node.js was independently researched and incorporated, which is something 
+                    I am proud of.
+                </p>
+
+                <table class="centered">
+                    <thead>
+                        <tr>
+                            <th>Concepts</th>
+                            <th>Languages &amp; Libraries</th>
+                            <th>Other Technologies</th>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>AJAX</td>
+                            <td>JavaScript</td>
+                            <td>Bootstrap</td>
+                        </tr>
+                        <tr>
+                            <td>RESTful Web Services</td>
+                            <td>jQuery</td>
+                            <td>JSON</td>
+                        </tr>
+                        <tr>
+                            <td>Web APIs</td>
+                            <td>SQL</td>
+                            <td>Node.js</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="carousel carousel-slider center">
+                <div class="carousel-item">
+                    <img src="media/mycomiclist_1.png" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/mycomiclist_2.png" class="carousel-img">
+                </div>
+            </div>                            
+        </div>
+
+        <!-- PANEL 2 -->
+        <div class="project-card card-panel">
+            <h4 class="left-align" id="TripTracker">Trip Tracker</h4>
+            <div class="row">
+                <p>
+                    Trip Tracker is was written in vanilla JavaScript and was my first attempt at making API calls. 
+                    The application makes a request to the Google Directions API based on validated user input: transit mode, origin, 
+                    and destination.  The JSON response is then parsed and the travel steps are iterated over and written out to the DOM. 
+                    Font Awesome icons are appended according to transit mode.
+                </p>
+                <p>
+                    Completion of this application cemented my interest in web development: 
+                    it allowed me to use a powerful API to create a practical tool.
+                </p>
+
+                <table class="centered">
+                    <thead>
+                        <tr>
+                            <th>Concepts</th>
+                            <th>Languages &amp; Libraries</th>
+                            <th>Other Technologies</th>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>RESTful Web Services</td>
+                            <td>JavaScript</td>
+                            <td>JSON</td>
+                        </tr>
+                        <tr>
+                            <td>Web APIs</td>
+                            <td>Font Awesome</td>
+                            <td>W3.CSS</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="carousel carousel-slider center">
+                <div class="carousel-item">
+                    <img src="media/trip_tracker_1.png" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/trip_tracker_2.png" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/trip_tracker_3.png" class="carousel-img">
+                </div>   
+            </div>                        
+        </div>
+
+        <!-- PANEL 3 -->
+        <div class="project-card card-panel">
+            <h4 class="left-align" id="HumansVsZombies">Humans Vs. Zombies!</h4>
+            <div class="row">
+                <p>
+                    This program was a simple modified 2D predator-prey simulation. Humans and zombies both extend the greater organism class, 
+                    and are cast back and forth throughout the flow of the program. Each class follows specific sets of rules dictating how they move, 
+                    reproduce, and expire, among other functions. The goal of the project was to have both populations survive for at least 100 turns: 
+                    I never experienced an extinction event, so the counter was capped it at 150.
+                <p>
+                    Humans Vs Zombies was one of the most rewarding assignments I completed during my school career. It was a challenging concept and very difficult 
+                    to debug, but watching it in action was truly satisfying.
+                </p>
+
+                <table class="centered">
+                    <thead>
+                        <tr>
+                            <th>Concepts</th>
+                            <th>Languages &amp; Libraries</th>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>Dynamic Memory Allocation</td>
+                            <td>C++</td>
+                        </tr>
+                        <tr>
+                            <td>Object Oriented Inheritance</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Polymorphism</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="carousel carousel-slider center">
+                <div class="carousel-item">
+                    <img src="media/zombies_1.png" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/zombies_2.png" class="carousel-img">
+                </div>  
+            </div>                        
+        </div>
+
+        <!-- PANEL 4 -->
+        <div class="project-card card-panel">
+            <h4 class="left-align" id="Rippopotamus">Rippopotamus</h4>
+            <div class="row">
+                <p>
+                    This project features a hungry hippopotamus that is controlled by key input. The object of the game is to eat 
+                    20 fruits before consuming 10 pieces of garbage. It is written in C# and uses the GDI+ API from Microsoft 
+                    for graphics processing. The game also has sound effects and audio, including a looping 8-bit rendition of 
+                    Toto's 'Africa' (for an enhanced user experience). Rippopotamus is another demonstration of object oriented 
+                    principles and C# coding.
+                </p>
+
+                <table class="centered">
+                    <thead>
+                        <tr>
+                            <th>Concepts</th>
+                            <th>Languages &amp; Libraries</th>
+                            <th>Other Technologies</th>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>Object Oriented Programming</td>
+                            <td>C#</td>
+                            <td>GDI+</td>
+                        </tr>
+                        <tr>
+                            <td>Namespacing</td>
+                            <td></td>
+                            <td>Windows Presentation Foundation</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="carousel carousel-slider center">
+                <div class="carousel-item">
+                    <img src="media/hippo_1.png" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/hippo_2.png" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/hippo_3.png" class="carousel-img">
+                </div>   
+            </div>                        
+        </div>
+
+        <!-- PANEL 5 -->
+        <div class="project-card card-panel">
+            <h4 class="left-align" id="AsynchronousChat">Asynchronous Chat</h4>
+            <div class="row">
+                <p>
+                    A simple TCP/IP chat application with a WPF interface. The application handles connections asynchronously using multithreading. 
+                    Chat sessions are logged using a custom build library that implements a logging interface. 
+                    Apache log4net is used for dependency injection in order to quickly swap out other logging libraries.
+                <p>
+                    This project was a continuation of a similar synchronous client/server chat program. 
+                    The progression illustrated how the use of delegates can be used to execute a method asynchronously.
+                </p>
+
+                <table class="centered">
+                    <thead>
+                        <tr>
+                            <th>Concepts</th>
+                            <th>Languages &amp; Libraries</th>
+                            <th>Other Technologies</th>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>Asynchronous Programming</td>
+                            <td>C#</td>
+                            <td>Apache log4net</td>
+                        </tr>
+                        <tr>
+                            <td>Dependency Injection</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="carousel carousel-slider center">
+                <div class="carousel-item">
+                    <img src="media/async_chat_1.png" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/async_chat_2.png" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/async_chat_3.png" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/async_chat_4.png" class="carousel-img">
+                </div>   
+            </div>                        
+        </div>
+
+        <!-- PANEL 6 -->
+        <div class="project-card card-panel">
+            <h4 class="left-align" id="Objectvania">Objectvania</h4>
+            <div class="row">
+                <p>
+                    Objectvania was my first foray into object oriented programming. 
+                    This included concepts such as abstraction, encapsulation, and inheritance. 
+                    It was written in Java  with a Swing based GUI.
+                <p>
+                    Completion of this project marked a milestone for my career as a programmer. It was the first application I was able 
+                    to easily package and show all of my friends and family; something that had clear value to anyone, whether they understand 
+                    code or not. This set the stage for my interest in web development and creating tools that all sorts of people may use.
+                </p>
+
+                <table class="centered">
+                    <thead>
+                        <tr>
+                            <th>Concepts</th>
+                            <th>Languages &amp; Libraries</th>
+                            <th>Other Technologies</th>
+                        </tr>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>Object Oriented Programming</td>
+                            <td>Java</td>
+                            <td>Swing</td>
+                        </tr>
+                        <tr>
+                            <td>UML Class Diagrams</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="carousel carousel-slider center">
+                <div class="carousel-item">
+                    <img src="media/objectvania_1.png" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/objectvania_2.png" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/objectvania_3.png" class="carousel-img">
+                </div>
+                <div class="carousel-item">
+                    <img src="media/objectvania_4.png" class="carousel-img">
+                </div>   
+            </div>                        
+        </div>
+
+    </div><!--END CONTAINER-->
+
+        <footer class="page-footer" id="connect">
+            <div class="container">
+                <div class="row">
+                    <div class="col l9 s12">
+                        <h5 class="white-text">Get in touch</h5>
+                        <p>Please visit my profile on <a class="white-text" target="_blank" href="https://www.linkedin.com/in/dhlaltoo/">LinkedIn</a>, 
+                            or connect with me via any of the contact information listed in my <a class="white-text" target="_blank" href="resume.html">resume</a>.
+                        </p>
+                    </div>
+                    <div class="right-align col l3 s12">
+                        <h5 class="white-text">Connect</h5>
+                        <a class="white-text" target="_blank" href="https://www.linkedin.com/in/dhlaltoo/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="white-text" target="_blank" href="https://github.com/dhlaltoo"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                </p>&copy; 2018 Devin Laltoo. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>  
+    
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+        </script>
+    
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+    </html>

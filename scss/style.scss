@@ -1,0 +1,17 @@
+// ======================================
+//  Partial Imports
+// ======================================
+
+// Utilities
+@import 'utilities/variables';
+        
+// Base Styles     
+@import 'base/base';
+
+// Layout Styles
+@import 'layout/navbar',
+        'layout/header',
+        'layout/section',
+        'layout/footer',
+        'layout/parallax',
+        'layout/media';

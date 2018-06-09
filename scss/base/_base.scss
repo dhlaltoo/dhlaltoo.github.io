@@ -1,0 +1,12 @@
+// ======================================
+//  Base Styles
+// ======================================
+
+p {
+    font-family: $font-stack-secondary;
+    line-height: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-stack-primary;
+}

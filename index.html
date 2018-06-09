@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>DL | Portfolio</title>        
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="nav-main" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="index.html" class="brand-logo">Devin Laltoo</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="#connect" class="connect-nav">Connect</a></li>   
+            </ul>
+    
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="#connect" class="connect-nav">Connect</a></li>   
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <!-- WELCOME -->
+    <div class="container welcome-section">
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel">
+                <div class="row valign-wrapper">
+                    <div class="col s12 m3 center-align">
+                        <img src="media/devin-profile.png" class="circle responsive-img">
+                    </div>
+                    <div class="col s12 m9">
+                        <span class="black-text">
+                            <h4>Hello,</h4>
+                            <h6>Welcome to my portfolio.</h6>
+                            <p>I coded this portfolio as a way to showcase a few of the technologies I have been using recently, namely jQuery, Sass, and the Materialize CSS framework.
+                                Below you will get a glimpse into my journey as a programmer, and a few of the projects I have completed recently. Enjoy, and thanks for stopping by. 
+                            </p>
+                        </span>
+                    </div>
+                </div>    
+            </div>
+        </div>            
+    </div>
+
+    <!-- THREE QUESTIONS -->
+    <div class="container three-questions-section">
+        <div class="section">    
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center"><i class="material-icons">trip_origin</i></h2>
+                        <h5 class="center">Where am I now?</h5>        
+                        <p class="light">
+                            I am a recent graduate of the Information Technology Programming stream at Nova Scotia Community College. Currently, I am a web development intern
+                            studying and applying technologies such as the Python framework Django, Sass, and Docker.
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center"><i class="material-icons">place</i></h2>
+                        <h5 class="center">Where am I going?</h5>        
+                        <p class="light">
+                            As I start my programming career I am searching for an employer that will allow me to accomplish three things: learn, communicate, and apply.
+                            I want to learn new technologies and techniques. I want to be able to communicate what I have learned, and resolve any impediments. Lastly, I want to apply
+                            my skills and produce something I can show off!
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center"><i class="material-icons">navigation</i></h2>
+                        <h5 class="center">How do I get there?</h5>
+                        <p class="light">
+                            A key to success is to never stop learning. Staying abreast of new technologies and techniques is paramount in application development. 
+                            I want to use every opportunity I am presented with to absorb new knowledge: chances are the cool new way of doing something is more efficient as well.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper tooltipped" data-position="top" data-tooltip="A humpback whale I photographed at Brier Island, NS">
+        <div class="section">
+            <div class="container">
+                <div class="row right-align">
+                    <h4>Select a project to view</h4>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img id="whale-img" src="media/whale.png" alt="Whale at Brier Island"></div>
+    </div>
+
+    <!-- WORK SAMPLES -->
+    <div class="container work-cards-section">
+        <div class="section">                
+            <div class="row">
+
+                <!-- CARD 1 -->
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <a href="projects.html#MyComicList">
+                            <div class="card-image">
+                                <img src="media/mycomiclist_1.png" class="project-img">
+                                <a href="projects.html#MyComicList" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">visibility</i></a>
+                            </div>
+                        </a>
+                        <div class="card-content">
+                            <span class="card-title">My Comic List</span>
+                            <p>Perform CRUD operations on comic series using a Node.js REST server and the Comic Vine API.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <a href="projects.html#TripTracker">
+                            <div class="card-image">
+                                <img src="media/trip_tracker_3.png" class="project-img">
+                                <a href="projects.html#TripTracker" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">visibility</i></a>
+                            </div>
+                        </a>
+                        <div class="card-content">
+                            <span class="card-title">Trip Tracker</span>
+                            <p>A single page web application written in JavaScript that taps into the Google Directions API.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <a href="projects.html#HumansVsZombies">
+                            <div class="card-image">
+                                <img src="media/zombies_1.png" class="project-img">                            
+                                <a href="projects.html#HumansVsZombies" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">visibility</i></a>
+                            </div>
+                        </a>
+                        <div class="card-content">
+                            <span class="card-title">Humans Vs Zombies!</span>
+                            <p>A spin on Conway's Game of Life featuring zombies, C++, and polymorphism.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <a href="projects.html#Rippopotamus">
+                            <div class="card-image">
+                                <img src="media/hippo_1.png" class="project-img">                
+                                <a href="projects.html#Rippopotamus" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">visibility</i></a>
+                            </div>
+                        </a>
+                        <div class="card-content">
+                            <span class="card-title">Rippopotamus</span>
+                            <p>Collect food and avoid garbage as a hungry hippo: coded in C# with GDI+.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <a href="projects.html#AsynchronousChat">
+                            <div class="card-image" id="Async">
+                                <img src="media/async_chat_2.png" class="project-img">
+                                <a href="projects.html#AsynchronousChat" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">visibility</i></a>
+                            </div>
+                        </a>
+                        <div class="card-content">
+                            <span class="card-title">Asynchronous Chat</span>
+                            <p>An asynchronous chat program written in C#. Supports multiple logging functionalities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 6 -->
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <a href="projects.html#Objectvania">
+                            <div class="card-image">
+                                <img src="media/objectvania_2.png" class="project-img">
+                                <a href="projects.html#Objectvania" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">visibility</i></a>
+                            </div>
+                        </a>
+                        <div class="card-content">
+                            <span class="card-title">Objectvania</span>
+                            <p>My first delve into object oriented programming - a turn based combat game inspired by a classic.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>                                
+        </div>
+    </div>
+
+    <footer class="page-footer" id="connect">
+        <div class="container">
+            <div class="row">
+                <div class="col l9 s12">
+                    <h5 class="white-text">Get in touch</h5>
+                    <p>Please visit my profile on <a class="white-text" target="_blank" href="https://www.linkedin.com/in/dhlaltoo/">LinkedIn</a>, 
+                        or connect with me via any of the contact information listed in my <a class="white-text" target="_blank" href="resume.html">resume</a>.
+                    </p>
+                </div>
+                <div class="right-align col l3 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <a class="white-text" target="_blank" href="https://www.linkedin.com/in/dhlaltoo/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="white-text" target="_blank" href="https://github.com/dhlaltoo"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            </p>&copy; 2018 Devin Laltoo. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

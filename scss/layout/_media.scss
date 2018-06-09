@@ -1,0 +1,44 @@
+// ======================================
+//  Responsive Media Styles
+// ======================================
+
+@media screen and (max-width: 600px) {
+    .card-title {
+        font-size: 18px !important;
+    }
+
+    .card {
+        height: 450px !important;
+    }
+
+    .row.valign-wrapper { 
+        display: inherit; 
+    } 
+
+    #logo-container {
+        font-size: 24px;
+    }
+
+    .projects-header {
+    
+        h3 {
+            font-size: 24px;
+        }
+        
+        h5 {
+            font-size: 20px;
+        }
+    }
+
+    .project-card {
+        h4 {
+            font-size: 24px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card-title {
+        font-size: 18px !important;
+    }
+}
